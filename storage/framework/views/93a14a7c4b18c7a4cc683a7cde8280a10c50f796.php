@@ -21,22 +21,22 @@
         </div>
 
         <div class="form-group">
-            <label for="capacity">POJEMNOŚĆ( W GRAMACH):</label>
+            <label for="capacity">POJEMNOŚĆ(w gr)</label>
             <input type="text" name="capacity"  value="<?php echo e($warehouse->capacity); ?>" class="form-control" ><br>
         </div>
 
         <div class="form-group">
-            <label for="quantity">QUANTITY:</label>
+            <label for="quantity">ILOŚĆ:</label>
             <input type="text" name="quantity" value="<?php echo e($warehouse->quantity); ?>" class="form-control" ><br>
         </div>
 
-        <label for="price">PRICE:</label>
+        <label for="price">CENA:</label>
         <div class="form-group">
             <input name="price" value="<?php echo e($warehouse->price); ?>" class="form-control"> </input><br>
         </div>
 
         <div class="form-group">
-            <input id="change" type="submit" class="btn btn-primary" value="Change"
+            <input id="change" type="submit" class="btn btn-primary" value="ZMIEŃ"
         </div>
     </form>
 

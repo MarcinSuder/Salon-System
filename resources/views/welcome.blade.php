@@ -14,7 +14,7 @@
         <style>
             html, body {
                 /*background-image: url('../images/ala1.jpg');*/
-                background-color: #caf4f4;
+                background-color: #87e7c5;
                 color: #fc640a;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;

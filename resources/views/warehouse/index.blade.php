@@ -10,6 +10,8 @@
     <a class="btn btn-info" href="{{ route('products.index') }}">PRODUKTY</a>
 
     <br/><br/>
+    <h1 style="color:#ff3c6c">MAGAZYN</h1>
+    <br/>
 
     <a class="btn btn-success" href="{{ route('warehouses.create') }}">DODAJ PRODUKT DO MAGAZYNU</a>
     <br/><br/>

@@ -7,27 +7,27 @@
 
 
         <div class="form-group">
-            <label for="first_name">FIRST NAME:</label>
+            <label for="first_name">IMIĘ:</label>
             <input type="text" name="first_name" value="<?php echo e($client->first_name); ?>"  class="form-control" ><br>
         </div>
 
         <div class="form-group">
-            <label for="last_name">LAST NAME:</label>
+            <label for="last_name">NAZWISKO:</label>
             <input type="text" name="last_name" value="<?php echo e($client->last_name); ?>" class="form-control" ><br>
         </div>
 
         <div class="form-group">
-            <label for="phone_number">PHONE NUMBER:</label>
+            <label for="phone_number">TELEFON:</label>
             <input type="text" name="phone_number" value="<?php echo e($client->phone_number); ?>"class="form-control" ><br>
         </div>
 
         <div class="form-group">
-            <label for="preferences">PREFERENCES:</label>
+            <label for="preferences">NOTATKI:</label>
             <input type="text" name="preferences" value="<?php echo e($client->preferences); ?>" class="form-control" ><br>
         </div>
 
         <div class="form-group">
-            <input id="edit" type="submit" class="btn btn-primary" value="edit"
+            <input id="edit" type="submit" class="btn btn-primary" value="ZMIEŃ"
         </div>
     </form>
 

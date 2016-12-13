@@ -10,6 +10,8 @@
     <a class="btn btn-info" href="{{ route('products.index') }}">PRODUKTY</a>
 
     <br/><br/>
+    <h1 style="color:#ff3c6c">PRODUKTY</h1>
+    <br/>
 
     <a class="btn btn-success" href="{{ route('products.create') }}">DODAJ PRODUKT</a>
     <br/><br/>

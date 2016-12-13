@@ -9,6 +9,9 @@
         <a class="btn btn-info" href="{{ route('products.index') }}">PRODUKTY</a>
 
         <br/><br/>
+        <h1 style="color:#ff3c6c">KLIENCI</h1>
+        <br/>
+
         <a class="btn btn-success" href="{{ route('clients.create') }}">DODAJ KLIENTA</a>
         <br/><br/>
 

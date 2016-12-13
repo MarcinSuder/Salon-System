@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
 
 class AppointmentsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -63,7 +67,6 @@ class AppointmentsController extends Controller
     {
         $products = Products::all();
 
-
         return view('appointments.show', compact('id','products'));
     }
 
@@ -80,9 +83,10 @@ class AppointmentsController extends Controller
         $post = $request->all();
 
         $i = 0;
+
         foreach ($post['products_id'] as $item) {
 
-            if($post['app_id'][$i] == 0) {
+             if($post['app_id'][$i] == 0) {
                 $pivotTable = new AppointmentsHasProducts();
             } else {
                 $pivotTable = AppointmentsHasProducts::find($post['app_id'][$i]);

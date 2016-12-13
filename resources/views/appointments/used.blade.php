@@ -63,9 +63,9 @@
         <div class="other">
         </div>
 
-        {{--<div class="form-group">--}}
-            {{--<input type="submit" class="btn btn-primary" value="save appointment">--}}
-        {{--</div>--}}
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="ZAPISZ WIZYTĘ">
+        </div>
     </form>
 
     <script>

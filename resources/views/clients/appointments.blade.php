@@ -30,9 +30,8 @@
                     <td>
                         <a class="btn btn-info" href="/appointments/used/products/{{$appointment->id}}">POKAZ UŻYTE PRODUKTY</a>
                     </td>
-
                 </tr>
+            @endforeach
         </table>
 
-            @endforeach
 @endsection
