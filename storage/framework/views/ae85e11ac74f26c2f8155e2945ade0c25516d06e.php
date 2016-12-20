@@ -19,7 +19,6 @@
 
     <div class="container">
 
-
 <?php echo $__env->yieldContent('content'); ?>
 
     </div>
