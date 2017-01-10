@@ -20,7 +20,7 @@
         <tr>
             <th>ID</th>
             <th>NAZWA PRODUKTU</th>
-            <th>POJEMNOŚĆ(gr)</th>
+            <th>POJEMNOŚĆ (gr)</th>
             <th>ILOŚĆ</th>
             <th>ZAKUPIONO</th>
             <th>ZUŻYTO PRODUKTU:</th>

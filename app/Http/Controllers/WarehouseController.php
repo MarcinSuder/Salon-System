@@ -94,7 +94,7 @@ class WarehouseController extends Controller
     {
         $warehouse = Warehouse::find($id);
 
-        $warehouse ->products_id = $request->input('products_id');
+        $warehouse->products_id = $request->input('products_id');
         $warehouse->capacity = $request->input('capacity');
         $warehouse->quantity = $request->input('quantity');
         $warehouse->price = $request->input('price');
