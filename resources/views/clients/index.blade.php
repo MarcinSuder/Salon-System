@@ -37,6 +37,7 @@
                 <th>NAZWISKO</th>
                 <th>TELEFON</th>
                 <th>UWAGI</th>
+                <th>HISTORIA WIZYT</th>
                 <th>ZMIEŃ</th>
                 <th>USUŃ</th>
             </tr>

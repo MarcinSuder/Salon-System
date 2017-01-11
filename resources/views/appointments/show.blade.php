@@ -11,9 +11,9 @@
             <div class="form-group">
                 <label>WYBIERZ PRODUKT Z LISTY:</label>
                 <select class="form-control" name="products_id[]">
-                    @foreach($products as $product)
+                    @foreach($warehouses as $warehouse)
 
-                        <option value="{{$product->id}}">{{$product->products_name}}</option>
+                        <option value="{{$warehouse->products->id}}">{{$warehouse->products->products_name}}</option>
 
                     @endforeach
                 </select>

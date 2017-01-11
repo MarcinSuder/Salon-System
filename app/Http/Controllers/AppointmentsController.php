@@ -6,6 +6,7 @@ use App\Appointments;
 use App\AppointmentsHasProducts;
 use App\Clients;
 use App\Products;
+use App\Warehouse;
 use Illuminate\Http\Request;
 
 class AppointmentsController extends Controller
@@ -65,9 +66,9 @@ class AppointmentsController extends Controller
      */
     public function show($id)
     {
-        $products = Products::all();
+        $warehouses = Warehouse::all();
 
-        return view('appointments.show', compact('id','products'));
+        return view('appointments.show', compact('id','warehouses'));
     }
 
     public function used($id)
