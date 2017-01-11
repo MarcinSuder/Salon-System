@@ -67,7 +67,7 @@
            @endforeach
         </table>
 
-
+ 		{{ $clients->links() }}
 
 
 @endsection

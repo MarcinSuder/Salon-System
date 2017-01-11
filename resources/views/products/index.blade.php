@@ -22,7 +22,7 @@
         <tr>
             <th>ID</th>
             <th>NAZWA PRODUKTU</th>
-            <th>POJEMNOŚĆ(w gramach)</th>
+            <th>POJEMNOŚĆ (w gramach)</th>
             <th>ZMIEŃ</th>
             <th>USUŃ</th>
         </tr>
